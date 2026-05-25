@@ -1,5 +1,55 @@
-.hero {
-    position: relative;
+:root {
+    --primary-color: #055a05;
+    /* forest green */
+    --secondary-color: #f4a261;
+    /* warm sand */
+    --accent1-color: #264653;
+    /* dark slate blue */
+    --accent2-color: #e9c46a;
+    /* lighjt golden yellow */
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .hero img {
@@ -23,17 +73,4 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-}
-
-.socialmedia img {
-    width: 100px;
-    height: auto;
-}
-
-.about-content {
-    display: block;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 30px;
-    margin-top: 20px;
 }
