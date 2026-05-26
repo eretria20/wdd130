@@ -67,10 +67,7 @@ article {
 
 .hero article {
     position: absolute;
-}
-
-.hero article {
-    bottom: 0px;
+    bottom: 0;
     background-color: rgba(51, 138, 255 / 77%);
     color: #fff;
 }
