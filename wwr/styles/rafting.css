@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #055a05;
+    --primary-color: #7195e2;
     /* forest green */
     --secondary-color: #f4a261;
     /* warm sand */
@@ -14,6 +14,11 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 
 * {
@@ -54,6 +59,10 @@ article {
 
 .hero {
     position: relative;
+}
+
+.hero h1 {
+    position: absolute;
 }
 
 .hero img {
