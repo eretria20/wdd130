@@ -59,14 +59,20 @@ article {
 
 .hero {
     position: relative;
+    /* set the main container to relative positioning */
 }
 
 .hero h1 {
     position: absolute;
+    /* position the heading absolutely on top of the image */
 }
 
 .hero article {
-    position: static;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(51, 138, 255 / 77%);
+    color: #fff;
+
 }
 
 .hero img {
