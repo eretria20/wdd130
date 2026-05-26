@@ -65,6 +65,10 @@ article {
     position: absolute;
 }
 
+.hero article {
+    position: static;
+}
+
 .hero img {
     display: block;
     width: 100%;
