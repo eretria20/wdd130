@@ -6,8 +6,8 @@
     --accent1-color: #264653;
     /* dark slate blue */
     --accent2-color: #e9c46a;
-    /* lighjt golden yellow */
-    --heading-font: "Times New Roman", "Georgia", serif;
+    /* light golden yellow */
+    --heading-font: "Time New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -68,7 +68,7 @@ article {
 .hero article {
     position: absolute;
     bottom: 0;
-    background-color: rgba(51, 138, 255 / 77%);
+    background-color: rgba(51, 138, 255, 77%);
     color: #fff;
 }
 
@@ -91,5 +91,5 @@ h1 {
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 100px;
 }
