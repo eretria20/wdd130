@@ -7,7 +7,7 @@
     /* dark slate blue */
     --accent2-color: #e9c46a;
     /* light golden yellow */
-    --heading-font: "Time New Roman", "Georgia", serif;
+    --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -16,8 +16,8 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 10px 20px;
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 nav {
@@ -57,7 +57,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 nav,
@@ -84,7 +84,7 @@ article {
     position: absolute;
     bottom: 0;
     background-color: rgba(51, 138, 255, 77%);
-    color: #fff;
+    color: var(--accent1-color)
 }
 
 .hero img {
