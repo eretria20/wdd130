@@ -87,6 +87,10 @@ article {
     color: #000000;
 }
 
+.hero article h2 {
+    color: #000000 b;
+}
+
 .hero img {
     display: block;
     width: 100%;
