@@ -33,7 +33,7 @@ nav a {
 
 nav a:hover {
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 * {
@@ -84,7 +84,7 @@ article {
     position: absolute;
     bottom: 0;
     background-color: rgba(51, 138, 255, 77%);
-    color: var(--accent1-color)
+    color: #000000;
 }
 
 .hero img {
