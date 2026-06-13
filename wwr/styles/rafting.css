@@ -189,6 +189,16 @@ iframe {
     align-items: center;
 }
 
+.profile-card img {
+    margin-bottom: 10px;
+}
+
+.profile-card figcaption {
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+}
+
 .profile-avatar {
     background-color: #e0e0e0;
     width: 120px;
